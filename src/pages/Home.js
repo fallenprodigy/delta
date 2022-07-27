@@ -1,7 +1,9 @@
 import React from "react";
+import Hero from "../components/Hero/Hero";
+
+// Hero Feature Content Carousel
 
 const Home = () => {
-  return <div>Home</div>;
+  return <Hero />;
 };
-
 export default Home;
