@@ -7,6 +7,7 @@ import SignUp from "./pages/SignUp";
 import Pricing from "./pages/Pricing";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/signup" element={<SignUp />} />
         <Route path="/pricing" element={<Pricing />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
