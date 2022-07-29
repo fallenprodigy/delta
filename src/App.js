@@ -6,11 +6,13 @@ import Home from "./pages/Home";
 import SignUp from "./pages/SignUp";
 import Pricing from "./pages/Pricing";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
       <GlobalStyle />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/signup" element={<SignUp />} />
